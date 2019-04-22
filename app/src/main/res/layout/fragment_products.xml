@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Products">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/first"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Products"
+            android:textSize="20sp"
+            android:textColor="#91cbfc"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textView"
+            />
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Products"
+            android:id="@+id/search">
+        </SearchView>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/first"
+        android:background="#91cbfc" />
+
+    <LinearLayout
+        android:id="@+id/moc"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@+id/first"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="14dp"
+        android:background="#f1f9ff"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/pro_new" />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="4.8"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="Smart Home"
+            android:textColor="#004b8b"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="right|center"
+            android:src="@drawable/symbol_9_13" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

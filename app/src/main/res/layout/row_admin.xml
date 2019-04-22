@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="186dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/shape_rowbackground"
+    android:layout_marginLeft="21dp"
+    android:id="@+id/linear"
+    android:layout_marginTop="30dp"
+    android:layout_height="94dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:textColor="#3352a7"
+        android:id="@+id/count"
+        android:layout_marginLeft="12dp"
+        android:lineSpacingExtra="7sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:layout_marginLeft="12dp"
+        android:textColor="#3352a7"
+        android:lineSpacingExtra="3sp"
+        android:text="New Requests"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+</LinearLayout>

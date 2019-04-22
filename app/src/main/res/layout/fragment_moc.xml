@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MOC">
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/viewpager"
+            android:layout_alignParentTop="true"
+            android:layout_height="190dp">
+
+        </android.support.v4.view.ViewPager>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/slider"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:layout_below="@+id/viewpager"
+            android:layout_height="wrap_content">
+        </LinearLayout>>
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/image"-->
+            <!--android:src="@drawable/homepage"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/slider"
+            android:id="@+id/linear"
+            android:layout_marginTop="20dp">
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Smart Home"-->
+                <!--android:padding="5dp"-->
+                <!--android:textSize="30sp"-->
+                <!--android:textColor="#000"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="#000"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I balanced a tray on one shoulder and had a coffee pot in the other hand, making my way around the tables.i made a living off the old townies  spare change and i knew everyone in the room.those with enough fight left to leave town for a meal drove fifteen minutes furture to where the chain restaurants finally picked up along the barren stretch of highway.the three room motel next door occasionally brought in some fresh blood,but it did'nt happen often. "
+                app:trimExpandedText="Show More"
+                app:trimCollapsedText="Show Less"
+                app:trimLength="170"
+                app:trimMode="trimModeLength"
+                android:padding="10dp"
+                app:colorClickableText="#2699fb"
+                />
+
+
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_buuton"
+        android:text="Book Now"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Control">
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:id="@+id/relative1"
+        >
+
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/fan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Fan"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/fanButton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="132dp" />
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="130dp"
+        android:layout_height="98dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/relative1"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp">
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/light" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon2"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Light"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/lightButton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/fanButton"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_width="130dp"
+        android:layout_height="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/relative1"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignLeft="@+id/relative1">
+
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/cctv" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon3"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="CCTV"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/CCTVButton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/fanButton"
+        android:layout_marginBottom="191dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/fanButton" />
+
+
+    <RelativeLayout
+        android:id="@+id/relative4"
+        android:layout_width="130dp"
+        android:layout_height="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/relative2"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignLeft="@+id/relative2">
+
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/motionsensor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon4"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Motion Sensor"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/sensorButton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/lightButton"
+        android:layout_marginBottom="191dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/lightButton" />
+
+</RelativeLayout>

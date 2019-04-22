@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:id="@+id/account"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="6"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/nav_header_desc"
+        app:civ_border_width="0.5dp"
+        app:civ_border_color="#FFFFFF"
+        android:src="@drawable/user"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:id="@+id/userName"
+        android:text="Hi, User" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_weight="2"
+        android:src="@drawable/whitearrow"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

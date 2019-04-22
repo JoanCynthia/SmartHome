@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_name"><u>Edit Name</u></string>
+    <string name="edit_id"><u>Edit ID</u></string>
+    <string name="report"><u>Report</u></string>
+    <string name="your_device_is_visible_to_the_nearby_bluetooth_devices">Your device is visible to the nearby bluetooth devices while Bluetooth settings is open</string>
+    <string name="terms_and_conditions"><u>Terms and Conditions</u></string>
+    <string name="change_password"><u>Change Password</u></string>
+    <string name="terms_amp_conditions"><u><![CDATA[Terms & Conditions]]></u></string>
+</resources>

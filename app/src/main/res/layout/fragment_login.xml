@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="LOGIN"
+        android:textColor="#179feb"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="5sp"
+        android:textStyle="normal"/>
+    <ImageView
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/circle"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/group"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="75dp"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </RadioGroup>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="6"
+    android:layout_weight="1">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_weight="2"
+    android:text="User"
+    android:textSize="15sp"
+    android:fontFamily="sans-serif-medium"
+    android:textStyle="normal"
+    android:textColor="#656565"
+    android:lineSpacingExtra="5sp"
+    android:layout_marginLeft="22sp"
+    android:gravity="center"
+    android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_weight="2"
+    android:text="Technician"
+    android:textSize="15sp"
+    android:fontFamily="sans-serif-medium"
+    android:textStyle="normal"
+    android:textColor="#656565"
+    android:lineSpacingExtra="5sp"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    android:text="Admin"
+    android:textSize="15sp"
+    android:fontFamily="sans-serif-medium"
+    android:textStyle="normal"
+    android:textColor="#656565"
+    android:lineSpacingExtra="5sp"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+    <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:weightSum="3"-->
+        <!--android:id="@+id/group"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/radio3"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="20dp"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/radio2"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/radio1"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--/>-->
+
+    <!--</RadioGroup>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:weightSum="3"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+                <!--android:id="@+id/user"-->
+                <!--android:text="User"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@id/radio3"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textStyle="normal"/>-->
+
+        <!--<TextView-->
+                <!--android:id="@+id/technician"-->
+                <!--android:text="Technician"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@id/radio2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:textStyle="normal"-->
+                <!--android:textSize="15sp"/>-->
+
+        <!--<TextView-->
+                <!--android:id="@+id/admin"-->
+                <!--android:text="Admin"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@id/radio1"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textStyle="normal"/>-->
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="12dp"
+        android:background="#efefef" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_details"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            app:errorEnabled="true"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:hint="Email Id or Phone no."
+                android:textSize="18dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            android:id="@+id/password"
+            app:passwordToggleEnabled="true"
+            app:errorEnabled="true"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textSize="18dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="9sp"
+            android:text="Remember me"
+            android:textColor="#656565"
+            android:textStyle="normal"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/forgotpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center"
+            android:layout_marginEnd="63dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Forgot Password ?"
+            android:textColor="#656565"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="63dp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_buuton"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:id="@+id/login"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape1_login"
+        android:text="Don&apos;t have an account? Register"
+        android:id="@+id/register"
+        android:textColor="#656565"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+

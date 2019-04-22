@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    android:id="@+id/linear_clickable"
+    android:background="#f1f9ff">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/group_467"
+        android:id="@+id/roomIcon"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="Controller 1"
+        android:layout_gravity="center"
+        android:textColor="#004b8b"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/tv1"
+        android:lineSpacingExtra="3sp"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/symbol_9_13"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/group_455"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/inbox"
+            android:icon="@drawable/ic_mail_outline_black_24dp"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/group_457"
+            android:title="Products" />
+        <!--<item-->
+            <!--android:id="@+id/offer"-->
+            <!--android:icon="@drawable/offer"-->
+            <!--android:title="Offer" />-->
+        <!--<item-->
+            <!--android:id="@+id/account"-->
+            <!--android:icon="@drawable/ic_person_black_24dp"-->
+            <!--android:title="My Account" />-->
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+            <!--<item-->
+        </menu>
+    </item>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/app_info"
+                android:icon="@drawable/group_459"
+                android:title="App info" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
